@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.inicio {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    max-height: 50px;
+    width: auto; 
+  }
+.linea {
+    height: 1px;
+  background-color: #3498db;
+  margin-bottom: 10px;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.error-message {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px; 
+    }
+  }
